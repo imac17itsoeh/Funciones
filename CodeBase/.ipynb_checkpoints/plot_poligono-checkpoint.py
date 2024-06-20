@@ -21,7 +21,7 @@ def generar_poligono_frecuencias(frecuencia_relativa, clases_sorted, marcas_clas
     
     plt.xticks(marcas_clase , marcas_textos, fontsize = 15, rotation = 45) # Cambio de las marcas del eje x de numeros a texto
     plt.xlabel("Marcas de clase", fontsize = 25) # Etiqueta del eje x
-    plt.ylabel("Frecuencia relativa", fontsize = 25) # Etiqueta del eje y
+    plt.ylabel("Frecuencia", fontsize = 25) # Etiqueta del eje y
     plt.title("Poligono de frecuencias", fontsize = 40) # Titulo
     plt.grid() # Se activa la cuadricula
     plt.show() # Se muestra el grafico en pantalla

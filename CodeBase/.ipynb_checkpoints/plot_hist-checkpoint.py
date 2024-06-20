@@ -21,7 +21,7 @@ def generar_histograma(marcas_clase, frecuencia, clases_sorted):
 
     # Etiquetas y título del gráfico con tamaño de fuente grande
     plt.xlabel("Marcas de clase", fontsize=25)
-    plt.ylabel("Frecuencia absoluta", fontsize=25)
+    plt.ylabel("Frecuencia", fontsize=25)
     plt.title("Histograma", fontsize=40)
 
     # Activar cuadrícula

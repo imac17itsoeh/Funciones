@@ -23,7 +23,7 @@ def generar_diagrama_barras_horizontal(fa_sorted, clases_sorted, marcas_clase):
 
     # Etiquetas y título del gráfico con tamaño de fuente grande
     plt.ylabel("Marcas de clase", fontsize=25)  # Etiqueta del eje Y
-    plt.xlabel("Frecuencia absoluta", fontsize=25)  # Etiqueta del eje X
+    plt.xlabel("Frecuencia", fontsize=25)  # Etiqueta del eje X
     plt.title("Diagrama de barras horizontales", fontsize=40)
 
     # Activar cuadrícula
