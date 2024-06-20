@@ -24,4 +24,4 @@ def generar_poligono_frecuencias(frecuencia_relativa, clases_sorted, marcas_clas
     plt.ylabel("Frecuencia relativa", fontsize = 25) # Etiqueta del eje y
     plt.title("Poligono de frecuencias", fontsize = 40) # Titulo
     plt.grid() # Se activa la cuadricula
-    plt.show() # Se muestra el grafico en pantalla 
+    plt.show() # Se muestra el grafico en pantalla

@@ -15,8 +15,8 @@ def generar_ojiva(marcas_clase, frecuencia_relativa_acumulada, clases_sorted):
     # - Marcador con forma triangular (marker = "v"). https://matplotlib.org/stable/api/markers_api.html
     
     plt.plot(datos_x , datos_y, 
-            linewidth = 5, color = "r", linestyle = ":",
-            marker = "v", markersize = 15, markeredgecolor = "#FF33F9", markerfacecolor = "#33FFF3") 
+    linewidth = 5, color = "r", linestyle = ":",
+    marker = "v", markersize = 15, markeredgecolor = "#FF33F9", markerfacecolor = "#33FFF3") 
     
     plt.xticks(marcas_clase , marcas_textos, fontsize = 15, rotation = 45) # Cambio de las marcas del eje x de numeros a texto
     plt.xlabel("Marcas de clase", fontsize = 25) # Etiqueta del eje x
