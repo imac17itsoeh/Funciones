@@ -1,5 +1,5 @@
 import matplotlib.pyplot as plt
-def generar_diagrama_barras_horizontal(fa_sorted, clases_sorted, marcas_clase):
+def generar_diagrama_barras_horizontal(fa_sorted, clases_sorted, marcas_clase, labelx, labely, titulo):
     """
     Genera un diagrama de barras horizontales con las características especificadas.
 
@@ -22,9 +22,9 @@ def generar_diagrama_barras_horizontal(fa_sorted, clases_sorted, marcas_clase):
     plt.yticks(marcas_clase, clases_sorted, fontsize=15, rotation=45)
 
     # Etiquetas y título del gráfico con tamaño de fuente grande
-    plt.ylabel("Marcas de clase", fontsize=25)  # Etiqueta del eje Y
-    plt.xlabel("Frecuencia", fontsize=25)  # Etiqueta del eje X
-    plt.title("Diagrama de barras horizontales", fontsize=40)
+    plt.ylabel(labelx, fontsize=25)  # Etiqueta del eje Y
+    plt.xlabel(labely, fontsize=25)  # Etiqueta del eje X
+    plt.title(titulo, fontsize=40)
 
     # Activar cuadrícula
     plt.grid()

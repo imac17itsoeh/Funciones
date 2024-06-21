@@ -1,5 +1,5 @@
 import matplotlib.pyplot as plt
-def generar_pastel(clases_sorted, datos):
+def generar_pastel(clases_sorted, datos, titulo):
     plt.pie(datos, 
             labels = clases_sorted,
             colors = [ "#33FFF3", "#FF33F9", "#3339FF","#FF5733", "#E6FF33", "#FF3346"],
@@ -8,5 +8,5 @@ def generar_pastel(clases_sorted, datos):
             counterclock = False,
             startangle = 90
            )
-    plt.title("Diagrama de pastel", fontsize=40)
+    plt.title(titulo, fontsize=40)
     plt.show() 

@@ -1,5 +1,5 @@
 import matplotlib.pyplot as plt
-def generar_histograma(marcas_clase, frecuencia, clases_sorted):
+def generar_histograma(marcas_clase, frecuencia, clases_sorted, labelx, labely, titulo):
     """
     Genera un histograma con las características especificadas.
 
@@ -20,9 +20,9 @@ def generar_histograma(marcas_clase, frecuencia, clases_sorted):
     plt.xticks(marcas_clase, clases_sorted, fontsize=15, rotation=45)
 
     # Etiquetas y título del gráfico con tamaño de fuente grande
-    plt.xlabel("Marcas de clase", fontsize=25)
-    plt.ylabel("Frecuencia", fontsize=25)
-    plt.title("Histograma", fontsize=40)
+    plt.xlabel(labelx, fontsize=25)
+    plt.ylabel(labely, fontsize=25)
+    plt.title(titulo, fontsize=40)
 
     # Activar cuadrícula
     plt.grid()
